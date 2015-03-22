@@ -1,0 +1,34 @@
+
+ header {
+ 	text-align: center;
+ }
+
+ section {
+ 	width: 100%;
+ 	height: 600px;
+
+}
+ article {
+	
+    height: 500px;
+	width: 25%;
+	float: left;
+}
+.img {
+	background-color: red;
+	width: 25%;
+	height: 200px;
+}
+.column-hidden section article:first-child, 
+.column-hidden section article:last-child {
+	display: none;
+}
+ 
+.column-hidden section article.first {
+ 	width: 30%;
+ }
+ 
+.column-hidden section article.img {
+ 	width: 70%;
+ }
+ 
